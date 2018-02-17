@@ -1,5 +1,7 @@
-version: '{build}'
-image: Visual Studio 2017
+version: 0.1.0.{build}
+platform: Any CPU
+configuration: Release
+
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
@@ -26,6 +28,6 @@ deploy:
   server: https://www.myget.org/F/notdeadyet/api/v2/package
   api_key:
     secure: /3MweOETF56L7FNkHR5EH1xK4lQMjxAtbyZpEX1snj3XlK3+iKZbfZ7hhRwSE/JX
-  skip_symbols: true
+  skip_symbols: false
   on:
     branch: master
