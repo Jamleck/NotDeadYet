@@ -4,16 +4,18 @@
     <id>NotDeadYet.Nancy</id>
     <Version>0.0.0</Version>
     <title>NotDeadYet.Nancy</title>
-    <authors>Andrew Harcourt</authors>
+    <Authors>Andrew Harcourt</Authors>
     <owners>Andrew Harcourt</owners>
-    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-    <projectUrl>https://github.com/uglybugger/NotDeadYet</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Nancy integration for NotDeadYet.</description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/uglybugger/NotDeadYet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/uglybugger/NotDeadYet</RepositoryUrl>
+    <Description>Nancy integration for NotDeadYet.</Description>
     <releaseNotes>.</releaseNotes>
     <copyright>Copyright 2015 Andrew Harcourt</copyright>
-    <tags>NotDeadYet health check application monitor Nancy NancyFX</tags>
-  </PropertyGroup>
+    <PackageTags>NotDeadYet health check application monitor Nancy NancyFX</PackageTags>
+
+</PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Nancy" Version="1.4.4" />
   </ItemGroup>

@@ -5,11 +5,11 @@
     <Product>NotDeadYet.MVC4</Product>
     <Version>0.0.0</Version>
     <title>NotDeadYet.MVC4</title>
-    <authors>Andrew Harcourt</authors>
+    <Authors>Andrew Harcourt</Authors>
     <owners>Andrew Harcourt</owners>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/uglybugger/NotDeadYet</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/uglybugger/NotDeadYet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/uglybugger/NotDeadYet</RepositoryUrl>
     <Description>MVC4 integration for NotDeadYet.</Description>
     <releaseNotes>.</releaseNotes>
