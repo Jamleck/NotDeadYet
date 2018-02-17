@@ -46,13 +46,12 @@ $versionSuffix = @{ $true = "--version-suffix=$($suffix)"; $false = ""}[$suffix 
 echo "build: Package version suffix is $suffix"
 echo "build: Build version suffix is $buildSuffix" 
 
-exec { dotnet restore  }
 
-exec { dotnet build .\src\NotDeadYet\NotDeadYet.csproj }
-exec { dotnet build .\src\NotDeadYet.AspNetCore\NotDeadYet.AspNetCore.csproj }
-exec { dotnet build .\src\NotDeadYet.MVC4\NotDeadYet.MVC4.csproj }
-exec { dotnet build .\src\NotDeadYet.Nancy\NotDeadYet.Nancy.csproj }
-exec { dotnet build .\src\NotDeadYet.WebApi\NotDeadYet.WebApi.csproj }
+exec { dotnet build .\src\NotDeadYet\NotDeadYet.csproj -c Release --version-suffix=$buildSuffix -v q /nologo}
+exec { dotnet build .\src\NotDeadYet.AspNetCore\NotDeadYet.AspNetCore.csproj -c Release --version-suffix=$buildSuffix -v q /nologo}
+exec { dotnet build .\src\NotDeadYet.MVC4\NotDeadYet.MVC4.csproj -c Release --version-suffix=$buildSuffix -v q /nologo}
+exec { dotnet build .\src\NotDeadYet.Nancy\NotDeadYet.Nancy.csproj -c Release --version-suffix=$buildSuffix -v q /nologo}
+exec { dotnet build .\src\NotDeadYet.WebApi\NotDeadYet.WebApi.csproj -c Release --version-suffix=$buildSuffix -v q /nologo}
 
 #exec { dotnet build -c Release --version-suffix=$buildSuffix -v q /nologo }
 
