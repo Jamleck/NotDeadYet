@@ -2,7 +2,7 @@
 
 ## .NET application health checking made easy
 
-### Why do I want this?
+### Why do I want this? 
 
 To easily generate something like this: [http://www.uglybugger.org/healthcheck](http://www.uglybugger.org/healthcheck).
 
