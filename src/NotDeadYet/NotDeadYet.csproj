@@ -14,6 +14,9 @@
     <releaseNotes>.</releaseNotes>
     <copyright>Copyright 2015 Andrew Harcourt</copyright>
     <tags>health check application monitor</tags>
+    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/uglybugger/NotDeadYet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/uglybugger/NotDeadYet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='netstandard1.6'">
