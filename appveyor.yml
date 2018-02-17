@@ -25,4 +25,4 @@ deploy:
   server: https://www.myget.org/F/notdeadyet/api/v2/package
   api_key:
     secure: /3MweOETF56L7FNkHR5EH1xK4lQMjxAtbyZpEX1snj3XlK3+iKZbfZ7hhRwSE/JX
-  skip_symbols: false
+  skip_symbols: true
