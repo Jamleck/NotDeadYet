@@ -66,9 +66,9 @@ foreach ($test in ls src/*Tests) {
     Pop-Location
 }
 
-exec { dotnet pack .\src\NotDeadYet\NotDeadYet.csproj -c Release -o ..\..\artifacts --no-build --include-symbols  $versionSuffix }
+exec { dotnet pack .\src\NotDeadYet\NotDeadYet.csproj -c Release -o ..\..\artifacts --no-build --include-symbols $versionSuffix }
 exec { dotnet pack .\src\NotDeadYet.AspNetCore\NotDeadYet.AspNetCore.csproj -c Release -o ..\..\artifacts --no-build --include-symbols $versionSuffix }
-exec { dotnet pack .\src\NotDeadYet.MVC4\NotDeadYet.MVC4.csproj -c Release -o ..\..\artifacts --no-build --include-symbols  $versionSuffix }
+exec { dotnet pack .\src\NotDeadYet.MVC4\NotDeadYet.MVC4.csproj -c Release -o ..\..\artifacts --no-build --include-symbols $versionSuffix }
 exec { dotnet pack .\src\NotDeadYet.Nancy\NotDeadYet.Nancy.csproj -c Release -o ..\..\artifacts --no-build --include-symbols $versionSuffix }
 exec { dotnet pack .\src\NotDeadYet.WebApi\NotDeadYet.WebApi.csproj -c Release -o ..\..\artifacts --no-build --include-symbols $versionSuffix }
 
