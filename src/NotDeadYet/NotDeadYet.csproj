@@ -14,8 +14,6 @@
     <releaseNotes>.</releaseNotes>
     <copyright>Copyright 2015 Andrew Harcourt</copyright>
     <tags>health check application monitor</tags>
-    <AssemblyVersion>0.0.1.0</AssemblyVersion>
-    <FileVersion>0.0.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='netstandard1.6'">
